@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+.show-box{
+    transition: all 400ms linear !important;
+}
+.hover-box:hover .show-box{
+    right: 0;
+}
+.fill-col:hover svg path{
+    fill: #FFF !important;
+    color: #FFF;
+}
+.fill-col:hover{
+    box-shadow: 1px 7px 10px 0px rgba(255, 83, 0, 0.50);
+}
